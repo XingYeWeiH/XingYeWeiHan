@@ -9,7 +9,7 @@ def triangle(d,h):
     return d * h / 2
 
 # this is my third python function.
-def circular(r):
+def rotundity(r):
     return 3.1415926 * (r ** 2)
 
 # this is my fourth python function.
@@ -28,7 +28,7 @@ s = triangle(d,h)
 print("square(", d , ", ", h ,"): ", s);
 
 r = int(input("please input the length of one diameter of a circle: "))
-s = circular(r)
+s = rotundity(r)
 # found(10):314.1595926
 print("square(", r , "): ", s);
 
