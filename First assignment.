@@ -1,0 +1,39 @@
+#!/usr/bin/python3
+
+# this is my first Python function.
+def square(a):
+    return a ** 2
+
+# this is my second Python function.
+def triangle(d,h):
+    return d * h / 2
+
+# this is my third python function.
+def found(r):
+    return 3.1415926 * (r ** 2)
+
+# this is my fourth python function.
+def parallelogram(b,c):
+    return b * c
+
+a = int(input("please input the length of the side of square: "))
+s = square(a)
+# square(10):100
+print("square(", a , "): ", s);
+
+d = int(input("please input the length of one side of a triangle: "))
+h = int(input("please input the lengthe of the height on the side: "))
+s = triangle(d,h)
+# triangle(11,10):55
+print("square(", d , ", ", h ,"): ", s);
+
+r = int(input("please input the length of one diameter of a circle: "))
+s = found(r)
+# found(10):314.1595926
+print("square(", r , "): ", s);
+
+b = int(input("please input the length of one side of a parallelogram: "))
+c = int(input("please input the lengthe of the height on the side: "))
+s = parallelogram(b,c)
+# parallelogram(11,10):110
+print("square(", b , ",", c ,"): ", s);
